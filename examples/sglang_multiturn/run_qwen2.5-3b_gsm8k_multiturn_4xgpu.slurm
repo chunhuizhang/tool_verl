@@ -4,7 +4,7 @@
 #SBATCH -e logs/slurm-%j.err
 #SBATCH -p HGX,DGX
 #SBATCH --mem=64G
-#SBATCH --qos=lv0b
+#SBATCH --qos=lv1
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=64
